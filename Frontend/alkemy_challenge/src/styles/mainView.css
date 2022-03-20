@@ -1,0 +1,17 @@
+body {
+  background-color: white;
+}
+
+.text {
+  color: #072146;
+}
+
+.mainViewButton {
+  @apply w-36 text-lg h-12 mt-6 text-white rounded-lg shadow-sm shadow-blue-900/50 focus:outline-none mr-4;
+  background-color: #072146;
+}
+
+.logoutButton {
+  @apply text-lg h-12 mt-6 w-36 text-white rounded-lg shadow-sm shadow-blue-900/50 focus:outline-none;
+  background-color: crimson;
+}

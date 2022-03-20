@@ -1,0 +1,25 @@
+.ABMTitle {
+  @apply text-gray-500 font-bold text-xl mb-4;
+}
+
+.background {
+  background: rgb(17, 24, 39, 0.6);
+}
+
+.ABMInput {
+  @apply border-2 border-gray-400 py-1 px-1 rounded-md mb-2 outline-none text-gray-500;
+}
+
+.ABMLabel {
+  @apply font-semibold mb-2 text-gray-500;
+}
+
+.ABMButton {
+  @apply w-full text-lg h-12 mt-6 text-white rounded-lg shadow-sm shadow-blue-900/50 focus:outline-none mr-4;
+  background-color: #072146;
+}
+
+.ABMCancelButton {
+  @apply w-full text-lg h-12 mt-6 text-white rounded-lg shadow-sm shadow-blue-900/50 focus:outline-none;
+  background-color: crimson;
+}

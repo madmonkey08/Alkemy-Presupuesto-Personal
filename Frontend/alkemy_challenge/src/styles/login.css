@@ -1,0 +1,23 @@
+.loginInput {
+  @apply text-lg max-w-lg border-2 border-gray-300 h-12 py-2 pl-3 rounded-lg focus:outline-none text-gray-700 shadow-lg mb-6;
+}
+
+.loginLabel {
+  @apply text-lg max-w-lg text-left mb-2 text-gray-600;
+}
+
+.text {
+  color: #072146;
+}
+
+.loginButton {
+  @apply w-full text-lg h-12 mt-6 text-white rounded-lg shadow-sm shadow-blue-900/50 focus:outline-none;
+  background-color: #072146;
+}
+
+#right-col {
+  background-image: url("../assets/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
